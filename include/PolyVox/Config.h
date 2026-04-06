@@ -34,7 +34,6 @@ SOFTWARE.
 
 //#define POLYVOX_ASSERTS_ENABLED
 #if !defined(PLATFORM_3DS) && !defined(PLATFORM_DOLPHIN)
-#if !defined(PLATFORM_3DS)
 #define POLYVOX_THROW_ENABLED
 #endif
 
