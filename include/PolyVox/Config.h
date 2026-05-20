@@ -33,7 +33,7 @@ SOFTWARE.
 #define POLYVOX_LOG_FATAL_ENABLED
 
 //#define POLYVOX_ASSERTS_ENABLED
-#if !defined(PLATFORM_3DS) && !defined(PLATFORM_DOLPHIN)
+#if defined(__cpp_exceptions) || defined(__EXCEPTIONS) || defined(_CPPUNWIND)
 #define POLYVOX_THROW_ENABLED
 #endif
 
